@@ -5,13 +5,7 @@ on:
   push:
     branches:
       - main
-      - 'releases/**'
-    branches-ignore:
-      - dev
-  label:
-    types: [created]
-  issues:
-    types: [opened, labeled]
+
 
 jobs:
   build:
